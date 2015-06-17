@@ -20,13 +20,13 @@
 			$html = $('html');
 
 		// Disable animations/transitions until the page has loaded.
-			$html.addClass('is-loading');
+			// $html.addClass('is-loading');
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$html.removeClass('is-loading');
-				}, 0);
-			});
+			// $window.on('load', function() {
+			// 	window.setTimeout(function() {
+			// 		$html.removeClass('is-loading');
+			// 	}, 0);
+			// });
 
 		// Touch mode.
 			if (skel.vars.mobile) {
