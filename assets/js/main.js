@@ -96,6 +96,7 @@
 					$window.on('load.hl_headerTitle', function() {
 
 						skel.on('-medium !medium', function() {
+							// PAINT
 
 							$headerTitle
 								.css('position', 'fixed')
@@ -108,7 +109,7 @@
 						});
 
 						skel.on('+medium', function() {
-
+							// PAINT
 							$headerTitle
 								.css('position', '')
 								.css('height', '')
@@ -179,7 +180,7 @@
 				// Create bg and append it to body.
 					$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
 						.css('background-image', (
-							'url("css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
+							'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
 						))
 						.appendTo($body);
 
