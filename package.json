@@ -1,0 +1,19 @@
+{
+  "name": "thenullbyte.org",
+  "version": "1.0.0",
+  "description": "personal website / portfolio",
+  "main": "index.html",
+  "scripts": {
+    "build" : "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dydx/thenullbyte.org.git"
+  },
+  "author": "Josh Sandlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dydx/thenullbyte.org/issues"
+  },
+  "homepage": "https://github.com/dydx/thenullbyte.org#readme"
+}
