@@ -1,7 +1,6 @@
 var gulp    = require('gulp')
     uglify  = require('gulp-uglify')
-    concat  = require('gulp-concat')
-    minify  = require('gulp-minify-css');
+    concat  = require('gulp-concat');
 
 gulp.task('scripts', function() {
     return gulp.src('assets/js/*.js')
@@ -11,6 +10,5 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('default', [
-    'scripts',
-    'styles'
+    'scripts'
 ]);
