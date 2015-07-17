@@ -724,15 +724,15 @@
 		position: relative;
 		text-align: center;
 
-		&:before,
-		&:after {
-			background: _palette(border);
-			content: '';
-			left: 50%;
-			position: absolute;
-			width: 1px;
-			z-index: 0;
-		}
+	//	&:before,
+	//	&:after {
+        //		background: _palette(border);
+	//		content: '';
+	//		left: 50%;
+	//		position: absolute;
+	//		width: 1px;
+	//		z-index: 0;
+	//	}
 
 		&:before {
 			height: calc(100% - 50px);
